@@ -36,8 +36,7 @@ gem 'puma'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'locomotivecms', :github => 'locomotivecms/engine', :branch => 'master', :ref => '2662db4366151132430540fd16865f000061f499'
-gem 'locomotivecms_steam', :github => 'locomotivecms/steam', :branch => 'master'
+gem 'locomotivecms', :github => 'akretion/engine', :branch => 'master'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
