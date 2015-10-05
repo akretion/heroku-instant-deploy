@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/akretion/engine.git
-  revision: 5bcf861560f50fc2ef3698414a17614f57a23db3
+  revision: 45ac1129da05940cd292cfe0bd5c9bf0e8e310f4
   branch: master
   specs:
     locomotivecms
@@ -26,7 +26,7 @@ GIT
       jquery-rails (~> 4.0.3)
       jquery-ui-rails (~> 5.0.3)
       kaminari (~> 0.16.3)
-      locomotivecms_steam
+      locomotivecms_steam (~> 1.0.1)
       mime-types (~> 2.5)
       mimetype-fu (~> 0.1.2)
       mongo_session_store-rails4 (~> 6.0.0)
