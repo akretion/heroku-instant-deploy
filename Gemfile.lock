@@ -3,7 +3,7 @@ GIT
   revision: 45ac1129da05940cd292cfe0bd5c9bf0e8e310f4
   branch: master
   specs:
-    locomotivecms
+    locomotivecms (3.0.1)
       actionmailer-with-request (~> 0.4.0)
       autoprefixer-rails (~> 5.2.0)
       backbone-on-rails (~> 1.2.0.0)
@@ -51,7 +51,7 @@ GIT
   revision: 61d01e15cbf35bda9050c0af66bab27f4ad91f2d
   branch: master
   specs:
-    locomotivecms_steam
+    locomotivecms_steam (1.0.1)
       RedCloth (~> 4.2.9)
       chronic (~> 0.10.2)
       coffee-script (~> 2.4.1)
