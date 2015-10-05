@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-if ENV['HEROKU_APP_NAME']
+#if ENV['HEROKU_APP_NAME']
   ruby '2.2.2'
-end
+#end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
