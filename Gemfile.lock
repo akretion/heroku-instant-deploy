@@ -45,7 +45,6 @@ GIT
       simple_token_authentication (~> 1.10.0)
       slim (~> 3.0.6)
       stringex (~> 2.5.2)
-      attr_extras (~> 4.4.0)
 
 GIT
   remote: git://github.com/akretion/steam.git
@@ -376,6 +375,7 @@ GEM
       colorize
       stringex (~> 2.5.2)
       attr_extras (~> 4.4.0)
+    attr_extras (~> 4.4.0)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
