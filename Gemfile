@@ -36,7 +36,7 @@ gem 'puma'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'locomotivecms', :github => 'locomotivecms/engine', :branch => 'master', :revision => '2662db4366151132430540fd16865f000061f499'
+gem 'locomotivecms', :github => 'locomotivecms/engine', :branch => 'master', :ref => '2662db4366151132430540fd16865f000061f499'
 gem 'locomotivecms_steam', :github => 'locomotivecms/steam', :branch => 'master'
 
 group :development, :test do
