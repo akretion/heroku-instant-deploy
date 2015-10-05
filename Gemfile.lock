@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/akretion/engine.git
-  revision: fb3516ae46cd46634ca60478a02e57b3aacbc3ff
+  revision: 5bcf861560f50fc2ef3698414a17614f57a23db3
   branch: master
   specs:
     locomotivecms
@@ -47,8 +47,8 @@ GIT
       stringex (~> 2.5.2)
 
 GIT
-  remote: git://github.com/locomotivecms/steam.git
-  revision: 258ec9d2af9eb84ad27df93d270e933b775d5be4
+  remote: git://github.com/akretion/steam.git
+  revision: 61d01e15cbf35bda9050c0af66bab27f4ad91f2d
   branch: master
   specs:
     locomotivecms_steam
