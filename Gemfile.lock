@@ -61,7 +61,7 @@ GIT
       httparty (~> 0.13.5)
       kramdown (~> 1.8.0)
       locomotivecms-solid (~> 4.0.0.alpha2)
-      locomotivecms_common (~> 0.0.4)
+      locomotivecms_common (~> 0.0.5)
       mime-types (~> 2.6.1)
       mimetype-fu (~> 0.1.2)
       moneta (~> 0.8.0)
@@ -370,7 +370,7 @@ GEM
     locomotivecms-liquid (4.0.0.alpha2)
     locomotivecms-solid (4.0.0.alpha2)
       locomotivecms-liquid (~> 4.0.0.alpha2)
-    locomotivecms_common (0.0.4)
+    locomotivecms_common (0.0.5)
       activesupport (~> 4.2.1)
       colorize
       stringex (~> 2.5.2)
