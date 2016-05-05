@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  devise_for :users
   # Locomotive Back-office
   mount Locomotive::Engine => '/locomotive', as: 'locomotive' # you can change the value of the path, by default set to "/locomotive"
 
