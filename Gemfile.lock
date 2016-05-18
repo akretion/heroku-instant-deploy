@@ -94,7 +94,7 @@ GIT
 
 GIT
   remote: https://github.com/akretion/exodoo.git
-  revision: a6bd0f9db9388466c4c991addd8e07d01eadfa36
+  revision: c446a3a4413822613c0c7a15eac60b101fa83225
   specs:
     exodoo (0.0.2)
       erpify

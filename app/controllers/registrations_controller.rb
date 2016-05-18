@@ -1,7 +1,9 @@
 class RegistrationsController < Devise::RegistrationsController
 
   def edit
+p "iiiiiiiiiiiiiii edit"
     @partner = current_user.partner_id
+p current_user, @partner
     super
   end
 
