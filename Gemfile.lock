@@ -74,7 +74,7 @@ GIT
 
 GIT
   remote: https://github.com/akretion/aktooor.git
-  revision: 1d37cd9f755d293c8ac578b28649724f62bf97d3
+  revision: 1137f257d4bd069b80a8b5208d6219b149984757
   specs:
     aktooor (0.0.1)
       actionpack (>= 3.1)
