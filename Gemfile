@@ -5,6 +5,9 @@ source 'https://rubygems.org'
 #end
 
 gem 'aktooor', git: 'https://github.com/akretion/aktooor.git'
+gem 'ooorest', git: 'https://github.com/akretion/ooorest.git'
+gem 'ooor', git: 'https://github.com/akretion/ooor.git'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.2.5'
