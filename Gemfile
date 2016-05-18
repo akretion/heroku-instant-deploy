@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 #end
 
 gem 'aktooor', git: 'https://github.com/akretion/aktooor.git'
+gem 'exodoo', git: 'https://github.com/akretion/exodoo.git'
+gem 'erpify', git: 'https://github.com/akretion/erpify.git'
 gem 'ooorest', git: 'https://github.com/akretion/ooorest.git'
 gem 'ooor', git: 'https://github.com/akretion/ooor.git'
 
@@ -42,8 +44,8 @@ gem 'puma', '~> 2.15.3'
 gem 'carrierwave-aws'
 
 # DEV
-gem 'locomotivecms', github: 'locomotivecms/engine', ref: '97419e1'
-gem 'locomotivecms_steam',  github: 'locomotivecms/steam', ref: '60732f3'
+gem 'locomotivecms', github: 'locomotivecms/engine' #, ref: '97419e1'
+gem 'locomotivecms_steam',  github: 'locomotivecms/steam' #, ref: '60732f3'
 
 gem 'puma_worker_killer'
 
