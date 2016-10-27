@@ -1,0 +1,20 @@
+#networks:
+#  default:
+#    external:
+#      name: your_network
+services:
+  ruby:
+    build: .
+    labels:
+      main_service: 'True'
+    ports:
+      - 3000:3000
+    #volumes:
+    # - .:/workspace
+    links:
+      - db
+  db:
+    image: mongo:3
+    volumes:
+      - ../data:/data/db
+version: '2'
