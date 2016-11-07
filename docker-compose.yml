@@ -1,0 +1,12 @@
+services:
+  locomotive:
+    build: .
+    ports:
+      - 3000:3000
+    links:
+      - db
+  db:
+    image: mongo:3
+    volumes:
+      - ../data:/data/db
+version: '2'

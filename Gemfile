@@ -1,8 +1,5 @@
 source 'https://rubygems.org'
 
-#if ENV['HEROKU_APP_NAME']
-  ruby '2.2.2'
-#end
 
 gem 'aktooor', git: 'https://github.com/akretion/aktooor.git'
 gem 'exodoo', git: 'https://github.com/akretion/exodoo.git'
