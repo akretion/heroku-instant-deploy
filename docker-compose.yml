@@ -1,20 +1,17 @@
-#networks:
-#  default:
-#    external:
-#      name: your_network
 services:
-  ruby:
+  locomotive:
     build: .
-    labels:
-      main_service: 'True'
+    env_file: ../environment
     ports:
       - 3000:3000
-    #volumes:
-    # - .:/workspace
     links:
       - db
+    volumes:
+     - ../log:/workspace/log
+    restart: always
   db:
     image: mongo:3
     volumes:
       - ../data:/data/db
+    restart: always
 version: '2'
