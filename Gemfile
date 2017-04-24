@@ -41,9 +41,9 @@ gem 'puma_worker_killer'
 gem 'derailed', group: :development
 
 # DEV
-gem 'custom_fields', github: 'locomotivecms/custom_fields', ref: '4a612e520a07b471413319d1a86c8d79a3384b7b'
-gem 'locomotivecms_steam', github: 'locomotivecms/steam', ref: 'e624ab6869509843df0f6e1e92299854720e9cca', require: false
-gem 'locomotivecms', github: 'locomotivecms/engine', ref: 'd5c959e057db251b028513a03b1a668e8e67201c'
+gem 'custom_fields', github: 'locomotivecms/custom_fields', ref: '36b79ea91b896abdc5c863f898b16dd1e9ae9756'
+gem 'locomotivecms_steam', github: 'locomotivecms/steam', ref: '0b2fab03029872cf3b4f73336ae8fc2d241e06af', require: false
+gem 'locomotivecms', github: 'locomotivecms/engine', ref: '81b7e66e3f3c05d84a87c2ad34834f5f76573c08'
 
 # GITHUB
 # gem 'locomotivecms', github: 'locomotivecms/engine', branch: 'master'
